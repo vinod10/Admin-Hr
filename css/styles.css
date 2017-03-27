@@ -1,0 +1,89 @@
+/* GENERAL
+================================================== */
+
+body {
+    margin-top: 90px;
+    font-size: 15px;
+    overflow-x: hidden;
+    background: url('../images/bg.png') 100% no-repeat fixed;
+    background-size: cover;
+}
+
+/* MAIN PANEL
+================================================== */
+
+.panel-login {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #d35400;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0;
+    clear: both;
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));/*for chrome*/
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));/*for firefox*/
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));/*for explorer*/
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));/*for opera*/
+}
+
+.panel-login input[type="text"],.panel-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.panel-login input:hover,
+.panel-login input:focus {
+    /*for no box shadow*/
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.btn-login {
+    background-color: #16a085;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #16a085;
+    border-radius: 0;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #f39c12;
+    border-color: #f39c12;
+}
+
+.remember_me{
+    color: #1b6d85;
+    font-weight: normal;
+}
+
+.forgot-password {
+    text-decoration: underline;
+    color: #cd6155;
+}
+
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: none;
+    color: #d98880;
+}
